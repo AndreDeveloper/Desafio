@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
     <build>
-  	<finalName>fabricaweb</finalName>
+  	<finalName>desafio</finalName>
   		<plugins>
   			<plugin>
   				<artifactId>maven-compiler-plugin</artifactId>
