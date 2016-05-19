@@ -1,4 +1,4 @@
-package entity;
+package desafiovalemobi.model;
 
 public class Mercadoria {
 	private int codigo;
@@ -7,6 +7,7 @@ public class Mercadoria {
 	private int quantidade;
 	private double preco;
 	private String tipoNegocio;
+	
 	public int getCodigo() {
 		return codigo;
 	}
