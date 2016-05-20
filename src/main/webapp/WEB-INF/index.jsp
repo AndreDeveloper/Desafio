@@ -173,9 +173,9 @@
 			</div>
 			<div>
 				<button class="btn btn-success" class="col-sm-12 col-md-6"
-					id="btn-submit" type="button">Submit</button>
+					id="btn-submit" type="button">Guardar</button>
 				<button class="btn btn-default" class="col-sm-12 col-md-6"
-					type="reset">clean</button>
+					type="reset">Limpar</button>
 			</div>
 		</div>
 	</form>

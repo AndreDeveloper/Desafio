@@ -57,7 +57,7 @@
 				<td><%=m.getTipoNegocio()%></td>
 				<td><a
 					href="mercadoriacontroller.do?acao=alt&id=<%=m.getCodigo()%>">
-						<button class="btn btn-success" type="reset">Edit</button>
+						<button class="btn btn-success" type="reset">Editar</button>
 				</a> <a href="mercadoriacontroller.do?acao=del&id=<%=m.getCodigo()%>">
 						<button class="btn btn-default" type="reset">Excluir</button></td>
 				</a>

@@ -115,9 +115,9 @@
 			</div>
 			<div>
 				<button class="btn btn-success" class="col-sm-12 col-md-6"
-					id="btn-submit" type="submit">Submit</button>
+					id="btn-submit" type="submit">Guardar</button>
 				<button class="btn btn-default" class="col-sm-12 col-md-6"
-					type="reset">undo</button>
+					type="reset">Desfazer</button>
 			</div>
 		</div>
 	</form>
