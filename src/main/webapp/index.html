@@ -85,9 +85,6 @@
 </head>
 
 <body class="container">
-	<%
-		String confirm = (String) request.getAttribute("confirmacao");
-	%>
 	<ul class="nav nav-pills">
 		<li role="presentation" class="active"><a
 			href="mercadoriacontroller.do?acao=home">Home</a></li>
@@ -101,19 +98,6 @@
 			<p>Cadastre uma Mercadoria</p>
 		</h1>
 	</div>
-	<%
-		if (confirm != null) {
-
-			if (confirm.equals("done")) {
-	%>
-	<div class="alert alert-success" role="alert">
-		<a href="mercadoriacontroller.do?acao=tab" class="alert-link">Mercadoria
-			incluida com sucesso! confira aqui</a>
-	</div>
-	<%
-		}
-		}
-	%>
 	<form action="mercadoriacontroller.do?acao=save" method="POST"
 		id="form-cadastro" name="form-cadastro">
 		<div class="row">
